@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Guilherme Gavassa de Siqueira">
+    <meta name="description" content="Exercício de sucessor em javascript">
+    <meta name="keywords" content="Exercício,exemplo,javascript,js">
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Exercício 10</title>
+</head>
+
+<body>
+    <section id="header">
+        <h2 id="title">Exercício 10 - Calculo de Eleição.</h2>
+        <p>Solicitar cinco valores e identificar a porcentagem de votos nulos, <br>
+            brancos e de cada candidato.</p>
+        <p>Guilherme Gavassa</p>
+    </section>
+
+    <section id="body">
+        <form>
+            <input type="text" class="input" id="nEleitores" placeholder="Número de Eleitores">
+            <input type="text" class="input" id="vBranco" placeholder="Votos Brancos">
+            <input type="text" class="input" id="vNulo" placeholder="Votos Nulos"><br>
+            <input type="text" class="input" id="vVa" placeholder="Votos Candidato A">
+            <input type="text" class="input" id="vVb" placeholder="Votos Candidato B">
+            <input type="text" class="input" id="vVc" placeholder="Votos Candidato C"><br><br><br>
+
+            <input type="text" class="input" id="resultadoA" placeholder="Porcentagem A" readonly>
+            <input type="text" class="input" id="resultadoB" placeholder="Porcentagem B" readonly>
+            <input type="text" class="input" id="resultadoC" placeholder="Porcentagem C" readonly>
+            
+        </form>
+        <div class="button">
+            <form>
+                <input type="button" class="input" value="Calcular o sucessor" onclick="calculo()"><br>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
